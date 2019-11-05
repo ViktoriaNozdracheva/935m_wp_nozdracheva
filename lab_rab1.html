@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Лабораторная работа №1</title>
+	<link rel="stylesheet" type = "text/css" href="style.css">
+
+</head>
+	<body>
+
+
+<nav id="menu">
+<ul >
+		<li> <a href="index.html" > Главная </a> </li>
+</ul>
+</nav>
+
+
+
+	<div class="index-text-1">Табличная форма</div>
+
+
+<table class="header">
+	</table>
+<table>
+		<tr>
+			<td rowspan="8" colspan="5"></td>
+			<td rowspan="3" colspan="6" class="red"></td>
+			<td rowspan="3" colspan="12"></td>
+			<td rowspan="3" colspan="3" class="yellow"></td>
+		</tr>
+		<tr>
+		<tr>
+		<tr>
+			<td rowspan="5" colspan="11"></td>
+			<td rowspan="10" colspan="3" class="blue"></td>
+			<td rowspan="5" colspan="4"></td>
+			<td rowspan="10" colspan="3"></td>
+		</tr>
+		<tr>
+		<tr>
+		<tr>
+		<tr>
+		<tr>
+			<td rowspan="5" colspan="11" class="green"></td>
+			<td rowspan="5" colspan="5"></td>
+			<td rowspan="5" colspan="4"></td>
+		</tr>
+		<tr>
+		<tr>
+		<tr>
+		<tr>
+		<tr class="widthfix">
+			<th></th><th></th><th></th><th></th><th></th>
+			<th></th><th></th><th></th><th></th><th></th>
+			<th></th><th></th><th></th><th></th><th></th>
+			<th></th><th></th><th></th><th></th><th></th>
+			<th></th><th></th><th></th><th></th><th></th>
+			<th></th>
+		</tr>
+	</table>
+	
+
+
+<h2 style="margin:30px 0px 0px 800px">Форма, заполняемая абитуриентом при поступлении в ВУЗ</h2>															
+							<form action="lab_rab1.html" method="POST">								
+								<table style="text-align:left">		
+									<tr>
+										<td colspan="2">
+											<h3>Персональная информация</h3>
+										</td>
+									</tr>														
+									<tr>
+										<td >
+											<b>Фамилия</b>											
+										</td>
+										<td>
+											<input type="text" name="surname">
+										</td>
+									</tr>
+   								    <tr>
+										<td>
+											<b>Имя</b>											
+										</td>
+										<td>
+											<input type="text" name="name">
+										</td>
+									</tr>	
+									<tr>
+										<td >
+											<b>Отчество</b>											
+										</td>
+										<td>
+											<input type="text" name="patronymic">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<b>Гражданство </b>
+										</td>
+										<td>
+											<select size="1" name="nationality">
+												<option disabled>Выберите гражданство</option>
+												<option value="Россия">Россия</option>
+												<option value="Беларусь">Беларусь</option>
+												<option value="Казахстан">Казахстан</option>												
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<b>Дата рождения</b>
+										</td>
+										<td>
+											<input type="date" name="date">												
+										</td>
+									</tr>
+									<tr>									
+										<td>
+											<b>Пол</b>											
+										</td>
+										<td>
+											<input type="radio" name="sex" value="м" >Мужской<br>
+											<input type="radio" name="sex" value="ж">Женский<br><br>
+										</td>										
+									</tr>
+ 									<tr>
+										<td>
+											<b>Место рождения</b>											
+										</td>
+										<td>
+											<input type="text" name="mestobirth" size="70">
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<h3>Документы абитуриента</h3>
+										</td>
+									</tr>
+ 									<tr>
+										<td>
+											<b>Серия</b>											
+										</td>
+										<td>
+											<input type="text" name="seria">
+										</td>
+									</tr>
+ 									<tr>
+										<td>
+											<b>Номер</b>											
+										</td>
+										<td>
+											<input type="text" name="num">
+										</td>
+									</tr>
+ 									<tr>
+										<td>
+											<b>Когда и кем выдан</b>											
+										</td>
+										<td>
+											<input type="text" name="k_k" size="70">
+										</td>
+									</tr>	
+									<tr>									
+										<td>
+											<b>Подается</b>											
+										</td>
+										<td>
+											<input type="radio" name="move" value="1">Аттестат<br>
+											<input type="radio" name="move" value="2">Диплом<br>
+										</td>
+									</tr>
+ 									<tr>
+										<td>
+											<b>Серия</b>											
+										</td>
+										<td>
+											<input type="text" name="seria1">
+										</td>
+									</tr>
+ 									<tr>
+										<td>
+											<b>Номер</b>											
+										</td>
+										<td>
+											<input type="text" name="num1">
+										</td>
+									</tr>
+									<tr>
+										<td >
+											<b>Иностранный язык</b>											
+										</td>
+										<td>
+											<input type="checkbox" name="lang" value="1">Английский<br>
+											<input type="checkbox" name="lang" value="2">Немецкий<br>
+											<input type="checkbox" name="lang" value="3">Французский<br>
+											<input type="checkbox" name="lang" value="3">Другой<br><br>
+										</td>
+									</tr>
+								<tr>
+										<td colspan="2">
+											<hr>
+										</td>
+									</tr>	
+									<tr>
+										<td colspan="2">
+											<h3>Направления подготовки</h3>
+										</td>
+									</tr>		
+									<tr>
+										<td>
+											<b>Направление 1 </b>
+										</td>
+										<td>
+											<select size="1" name="napravlen1">
+												<option label>Выберите напрвление</option>
+												<option value="01.03.02">01.03.02 Прикладная математика и информатика</option>
+												<option value="02.03.01">02.03.01 Математика и компьютерные науки</option>
+												<option value="02.03.03">02.03.03 Математическое обеспечение и администрирование информационных систем</option>												
+												<option value="09.03.01">09.03.01 Информатика и вычислительная техника</option>
+												<option value="09.03.02">09.03.02 Информационные системы и технологии</option>
+												<option value="09.03.03">09.03.03 Прикладная информатика</option>
+												<option value="09.03.04">09.03.04 Программная инженерия</option>
+												<option value="11.03.01">11.03.01 Радиотехника</option>												
+												<option value="11.03.02">11.03.02 Инфокоммуникационные технологии и системы связи</option>
+												<option value="11.03.03">11.03.03 Конструирование и технология электронных средств</option>
+												<option value="11.03.04">11.03.04 Электроника и наноэлектроника</option>
+												<option value="12.03.01">12.03.01 Приборостроение</option>
+												<option value="12.03.04">12.03.04 Биотехнические системы и технологии</option>												
+												<option value="13.03.02">13.03.02 Электроэнергетика и электротехника</option>
+												<option value="15.03.04">15.03.04 Автоматизация технологических процессов и производств</option>
+												<option value="15.03.06">15.03.06 Мехатроника и робототехника</option>
+												<option value="18.03.01">18.03.01 Химическая технология</option>
+												<option value="27.03.01">27.03.01 Стандартизация и метрология</option>												
+												<option value="27.03.02">27.03.02 Управление качеством</option>
+												<option value="27.03.04">27.03.04 Управление в технических системах</option>	
+												<option value="38.03.01">38.03.01 Экономика</option>
+												<option value="38.03.02">38.03.02 Менеджмент</option>
+												<option value="38.03.03">38.03.03 Управление персоналом</option>												
+												<option value="38.03.04">38.03.04 Государственное и муниципальное управление</option>
+												<option value="38.03.05">38.03.05 Бизнес - информатика</option>											
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<b>Направление 2 </b>
+										</td>
+										<td>
+											<select size="1" name="napravlen2">
+												<option label>Выберите напрвление</option>
+												<option value="01.03.02">01.03.02 Прикладная математика и информатика</option>
+												<option value="02.03.01">02.03.01 Математика и компьютерные науки</option>
+												<option value="02.03.03">02.03.03 Математическое обеспечение и администрирование информационных систем</option>												
+												<option value="09.03.01">09.03.01 Информатика и вычислительная техника</option>
+												<option value="09.03.02">09.03.02 Информационные системы и технологии</option>
+												<option value="09.03.03">09.03.03 Прикладная информатика</option>
+												<option value="09.03.04">09.03.04 Программная инженерия</option>
+												<option value="11.03.01">11.03.01 Радиотехника</option>												
+												<option value="11.03.02">11.03.02 Инфокоммуникационные технологии и системы связи</option>
+												<option value="11.03.03">11.03.03 Конструирование и технология электронных средств</option>
+												<option value="11.03.04">11.03.04 Электроника и наноэлектроника</option>
+												<option value="12.03.01">12.03.01 Приборостроение</option>
+												<option value="12.03.04">12.03.04 Биотехнические системы и технологии</option>												
+												<option value="13.03.02">13.03.02 Электроэнергетика и электротехника</option>
+												<option value="15.03.04">15.03.04 Автоматизация технологических процессов и производств</option>
+												<option value="15.03.06">15.03.06 Мехатроника и робототехника</option>
+												<option value="18.03.01">18.03.01 Химическая технология</option>
+												<option value="27.03.01">27.03.01 Стандартизация и метрология</option>												
+												<option value="27.03.02">27.03.02 Управление качеством</option>
+												<option value="27.03.04">27.03.04 Управление в технических системах</option>	
+												<option value="38.03.01">38.03.01 Экономика</option>
+												<option value="38.03.02">38.03.02 Менеджмент</option>
+												<option value="38.03.03">38.03.03 Управление персоналом</option>												
+												<option value="38.03.04">38.03.04 Государственное и муниципальное управление</option>
+												<option value="38.03.05">38.03.05 Бизнес - информатика</option>											
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<b>Направление 3 </b>
+										</td>
+										<td>
+											<select size="1" name="napravlen3">
+												<option label>Выберите напрвление</option>
+												<option value="01.03.02">01.03.02 Прикладная математика и информатика</option>
+												<option value="02.03.01">02.03.01 Математика и компьютерные науки</option>
+												<option value="02.03.03">02.03.03 Математическое обеспечение и администрирование информационных систем</option>												
+												<option value="09.03.01">09.03.01 Информатика и вычислительная техника</option>
+												<option value="09.03.02">09.03.02 Информационные системы и технологии</option>
+												<option value="09.03.03">09.03.03 Прикладная информатика</option>
+												<option value="09.03.04">09.03.04 Программная инженерия</option>
+												<option value="11.03.01">11.03.01 Радиотехника</option>												
+												<option value="11.03.02">11.03.02 Инфокоммуникационные технологии и системы связи</option>
+												<option value="11.03.03">11.03.03 Конструирование и технология электронных средств</option>
+												<option value="11.03.04">11.03.04 Электроника и наноэлектроника</option>
+												<option value="12.03.01">12.03.01 Приборостроение</option>
+												<option value="12.03.04">12.03.04 Биотехнические системы и технологии</option>												
+												<option value="13.03.02">13.03.02 Электроэнергетика и электротехника</option>
+												<option value="15.03.04">15.03.04 Автоматизация технологических процессов и производств</option>
+												<option value="15.03.06">15.03.06 Мехатроника и робототехника</option>
+												<option value="18.03.01">18.03.01 Химическая технология</option>
+												<option value="27.03.01">27.03.01 Стандартизация и метрология</option>												
+												<option value="27.03.02">27.03.02 Управление качеством</option>
+												<option value="27.03.04">27.03.04 Управление в технических системах</option>	
+												<option value="38.03.01">38.03.01 Экономика</option>
+												<option value="38.03.02">38.03.02 Менеджмент</option>
+												<option value="38.03.03">38.03.03 Управление персоналом</option>												
+												<option value="38.03.04">38.03.04 Государственное и муниципальное управление</option>
+												<option value="38.03.05">38.03.05 Бизнес - информатика</option>											
+											</select>
+										</td>
+									</tr>						
+									<tr>									
+										<td>
+											<b>Форма обучения</b>											
+										</td>
+										<td>
+											<input type="radio" name="mission" value="1">Очная<br>
+											<input type="radio" name="mission" value="2">Очно-заочная<br>
+											<input type="radio" name="mission" value="2">Заочная<br>
+										</td>
+									</tr>
+									<tr>
+										<td >
+											<b>На места</b>											
+										</td>
+										<td>
+											<input type="checkbox" name="job" value="1">По квоте<br>
+											<input type="checkbox" name="job" value="2">Целевой прием<br>
+											<input type="checkbox" name="job" value="3">Коммерческая основа<br>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<hr>
+										</td>
+									</tr>	
+									<tr>
+										<td colspan="2">
+											<h3>Баллы ЕГЭ</h3>
+										</td>
+									</tr>		
+									<tr>
+										<td >
+											<b>Русский язык</b>											
+										</td>
+										<td>
+											<input type="text" name="rl">
+										</td>
+									</tr>
+   								    <tr>
+										<td>
+											<b>Математика</b>											
+										</td>
+										<td>
+											<input type="text" name="mat">
+										</td>
+									</tr>	
+									<tr>
+										<td >
+											<b>Физика</b>											
+										</td>
+										<td>
+											<input type="text" name="phis">
+										</td>
+									</tr>
+									<tr>
+										<td >
+											<b>Обществознание</b>											
+										</td>
+										<td>
+											<input type="text" name="obsh">
+										</td>
+									</tr>
+   								    <tr>
+										<td>
+											<b>История</b>											
+										</td>
+										<td>
+											<input type="text" name="hist">
+										</td>
+									</tr>	
+									<tr>
+										<td >
+											<b>Литература</b>											
+										</td>
+										<td>
+											<input type="text" name="liter">
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<hr>
+										</td>
+									</tr>										
+																									
+<tr>
+<td colspan="2">
+<br><input type="submit" value="Сохранить">
+</td>
+</tr>
+</table>
+</form>
+	</body>
+</html>

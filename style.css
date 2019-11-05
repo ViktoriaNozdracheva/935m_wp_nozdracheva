@@ -1,0 +1,165 @@
+body{                                   /* Хранения содержания веб-страницы, отображаемого в окне браузера */
+	background: url(фон.jpg); /* Путь к фоновому изображению */
+                color: #     /*Цвет фона */
+}
+
+.fon{
+	background: url( );
+}
+
+.index-main-img{                 /* Класс для главной картинки - названия */
+     margin: 10px 0px 0 400px;         /*Отступы сверху, справа, снизу,                слева соответственно */ 
+	max-width: 400px;          /* Устанавливаем максимальную ширину элемента */
+	max-height: 300px;        /* Устанавливаем максимальную высоту элемента */
+	position: absolute;
+}
+
+.index-glavnya-img{           /* Класс для картинок */
+     margin: 0px 0px 0 800px;   /*Отступы сверху, справа, снизу, слева соответственно */ 
+	border-radius: 0px;    /* Устанавливаем радиус скругления уголков рамки */
+	max-width: 400px;       /* Устанавливаем максимальную ширину элемента */
+	max-height: 300px;      /* Устанавливаем максимальную высоту элемента */
+	
+}
+
+a {                                 /* Cоздания ссылок */ 
+    color: #9830b0; /* Цвет обычной ссылки */ 
+    text-decoration: none;          /* Убираем подчеркивание у ссылок */
+   }
+   a:hover {
+    color: #6c2996;                /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+
+#menu{width:50%;height:auto;}
+    #menu ul{
+        display:block;
+        width: 30%;
+        height:auto;
+        margin:300px 0px 0 450px;
+        padding:0px;
+        list-style:none;
+        position: absolute;
+    }
+        #menu ul li{display:block; width:50%; height:auto; position:relative;}
+            #menu ul li a{
+                position:relative;
+                display:block;
+                width:100%;
+                height:auto;
+                box-sizing:border-box;
+                font-size:20px;
+                text-transform:uppercase;
+                font-weight:bold;
+                color:rgba(89, 89, 86, 0.95);
+                line-height:1.5em;
+                padding:15px 20px;
+                background: rgba(182, 10, 194, 0.05);
+                border-top:1px solid rgba(187, 164, 189, 0.91);
+                text-decoration:none;
+            }
+            #menu ul  li:first-child a{border:10px;}
+            #menu ul li:hover a, #menu ul li:hover a{
+                background:rgba(176, 162, 104, 0.95);
+            }
+            #menu ul li ul{
+                position:absolute;
+                top:0px;
+                right:100%;
+                display:none;
+                width:200px;
+            }
+            /*******показываем выпадашку при наведении ********/
+            #menu ul li:hover ul{display:block;}
+                #menu ul li ul li a{
+                    white-space:nowrap;
+                    text-transform:none;
+                    padding:5px 20px;
+                }
+                    #menu ul li ul li a:hover{
+                        background:rgba(114, 110, 115, 0.91);
+                        color: rgba(114, 110, 115, 0.91);
+                    }
+
+.index-text-2{      /* Kласс для надписей на главной странице  */
+	font-size: 15pt;
+	color: 36, 30, 9, 0.95;
+     margin: 20px 200px 0 1200px;
+     font-style: oblique; 
+ }
+
+.index-text-1{      /* Класс для надписей на главной странице */ 
+     margin: 10px 400px 0 800px;
+font-size: 18pt;
+color: 36, 30, 9, 0.95;
+text-indent: 20px;
+font-style: oblique; 
+line-height: 1.5 ;
+} 
+
+.bord-menu{        /* Класс для надписей элементов меню */
+	border-right: 5px               /* Установить толщину, и стиль*/ 
+}
+
+.content{ 
+margin: 0 0 0 0; 
+padding-top: 4%; 
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+#navbar a:hover {
+  background-color: #E6E6FA;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 5px solid #9c33ff;
+  display: block;
+}
+#navbar li {
+  border-left: 5px solid #666;
+  border-bottom: 5px solid #666;
+}
+
+.table td
+{
+	border:1px solid
+}
+
+.content_td div
+{
+	display:block;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:20px;
+	width:600;
+}
+
+.header
+{
+	margin:0 auto;
+	width:50%;
+	height:100%;
+	background:#fff;
+	border-collapse: separate; 
+}
+
+		body { padding: 25px;}
+		label { display: block; }
+		table { border-collapse: collapse; margin:100px 10px 10px 780px;}
+		tr { height: 25px; }
+		td, th {
+			border: 1px solid #000;
+			width: 20px;
+		}
+		.widthfix {
+			visibility: hidden;
+			height: 0;
+		}
+		.blue { background-color: blue; }
+		.green { background-color: green; }
+		.red { background-color: red; }
+		.yellow { background-color: yellow; }
